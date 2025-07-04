@@ -1,0 +1,60 @@
+{
+    "models": {
+        "KNN": {
+            "accuracy": 0.8956701030927835,
+            "precision": 0.07578947368421053,
+            "recall": 0.34951456310679613,
+            "f1_score": 0.1245674740484429,
+            "auc_roc": 0.655259274636408,
+            "training_time": "Already trained",
+            "file_path": "D:\\DS102\\DoAnDS102\\Stroke_prediction_DS102\\models\\knn_model.pkl"
+        },
+        "SVM": {
+            "accuracy": 0.9787628865979382,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1_score": 0.0,
+            "auc_roc": 0.5,
+            "training_time": "Already trained",
+            "file_path": "D:\\DS102\\DoAnDS102\\Stroke_prediction_DS102\\models\\svm_model.pkl"
+        },
+        "Stacking": {
+            "accuracy": 0.9057731958762887,
+            "precision": 0.09122401847575058,
+            "recall": 0.38349514563106796,
+            "f1_score": 0.14738805970149255,
+            "auc_roc": 0.7921776349293677,
+            "training_time": "Already trained",
+            "file_path": "D:\\DS102\\DoAnDS102\\Stroke_prediction_DS102\\models\\stacking_model.pkl"
+        },
+        "Random Forest": {
+            "accuracy": 0.8474226804123711,
+            "precision": 0.0636986301369863,
+            "recall": 0.45145631067961167,
+            "f1_score": 0.11164465786314526,
+            "auc_roc": 0.781089640672392,
+            "training_time": "Already trained",
+            "file_path": "D:\\DS102\\DoAnDS102\\Stroke_prediction_DS102\\models\\rf_model.pkl"
+        },
+        "Logistic Regression": {
+            "accuracy": 0.5884536082474227,
+            "precision": 0.045389048991354465,
+            "recall": 0.9174757281553398,
+            "f1_score": 0.08649885583524028,
+            "auc_roc": 0.8316223225297121,
+            "training_time": "Already trained",
+            "file_path": "D:\\DS102\\DoAnDS102\\Stroke_prediction_DS102\\models\\lr_model.pkl"
+        },
+        "XGBoost": {
+            "accuracy": 0.387319587628866,
+            "precision": 0.0316734693877551,
+            "recall": 0.941747572815534,
+            "f1_score": 0.061285736850418576,
+            "auc_roc": 0.7368959138219131,
+            "training_time": "Already trained",
+            "file_path": "D:\\DS102\\DoAnDS102\\Stroke_prediction_DS102\\models\\xgb_model.pkl"
+        }
+    },
+    "best_model": "Logistic Regression",
+    "feature_importance": {}
+}
